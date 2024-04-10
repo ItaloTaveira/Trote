@@ -1,0 +1,59 @@
+table {
+    margin: auto;
+}
+
+table td {
+    padding: 10px;
+
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.lista {
+    display: none;
+}
+
+.primeiro {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    left: 0;
+    top: 0;
+    width: 15%;
+    height: 80%;
+    /* Ajuste aqui para reduzir o espaçamento inferior */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    position: absolute;
+    top: 15%;
+    /* Ajuste a posição vertical conforme desejado */
+    left: 18%;
+    /* Ajuste a posição horizontal conforme desejado */
+    width: 80%;
+    /* Ajuste a largura conforme desejado */
+    background-size: contain;
+    padding: 10px;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.lista1 {
+    padding: 0.9em;
+}

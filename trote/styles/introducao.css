@@ -1,0 +1,57 @@
+;:root {
+    --font-principal: Open;
+}
+
+body {
+    font-family: var(--font-principal);
+    margin: 0;
+    padding: 0;
+}
+
+.lista {
+    display: none;
+}
+
+.primeiro {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    left: 0;
+    top: 0;
+    width: 15%;
+    height: 100%;
+    /* Ajuste aqui para reduzir o espaçamento inferior */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.container2 {
+    position: absolute;
+    top: 15%;
+    /* Ajuste a posição vertical conforme desejado */
+    left: 18%;
+    /* Ajuste a posição horizontal conforme desejado */
+    width: 75%;
+    /* Ajuste a largura conforme desejado */
+    background-size: contain;
+    padding: 10px;
+    text-align: center;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    font-family: var(--font-principal);
+}
+
+.lista1 {
+    padding: 0.9em;
+}

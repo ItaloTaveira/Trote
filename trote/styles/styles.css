@@ -1,0 +1,43 @@
+:root {
+    --font-principal: Open;
+}
+
+body {
+    font-family: var(--font-principal);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #333 ;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background: #f8f9ff;
+}
+
+
